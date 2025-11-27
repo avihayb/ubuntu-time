@@ -1,0 +1,74 @@
+{
+  "en-US": [
+    "month",
+    "day",
+    "year",
+    "hour",
+    "minute",
+    "second"
+  ],
+  "en-GB": [
+    "day",
+    "month",
+    "year",
+    "hour",
+    "minute",
+    "second"
+  ],
+  "he-IL": [
+    "day",
+    "month",
+    "year",
+    "hour",
+    "minute",
+    "second"
+  ],
+  "de-DE": [
+    "day",
+    "month",
+    "year",
+    "hour",
+    "minute",
+    "second"
+  ],
+  "fr-FR": [
+    "day",
+    "month",
+    "year",
+    "hour",
+    "minute",
+    "second"
+  ],
+  "ja-JP": [
+    "year",
+    "month",
+    "day",
+    "hour",
+    "minute",
+    "second"
+  ],
+  "zh-CN": [
+    "year",
+    "month",
+    "day",
+    "hour",
+    "minute",
+    "second"
+  ],
+  "ar-SA": [
+    "day",
+    "month",
+    "year",
+    "hour",
+    "minute",
+    "second"
+  ],
+  "es-ES": [
+    "day",
+    "month",
+    "year",
+    "hour",
+    "minute",
+    "second"
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "en-US": {
+    "year": {
+      "long": "year",
+      "short": "yr",
+      "narrow": "y"
+    },
+    "month": {
+      "long": "month",
+      "short": "mth",
+      "narrow": "m"
+    },
+    "week": {
+      "long": "week",
+      "short": "wk",
+      "narrow": "w"
+    },
+    "day": {
+      "long": "day",
+      "short": "day",
+      "narrow": "d"
+    },
+    "hour": {
+      "long": "hour",
+      "short": "hr",
+      "narrow": "h"
+    },
+    "minute": {
+      "long": "minute",
+      "short": "min",
+      "narrow": "m"
+    },
+    "second": {
+      "long": "second",
+      "short": "sec",
+      "narrow": "s"
+    }
+  },
+  "en-GB": {
+    "year": {
+      "long": "year",
+      "short": "yr",
+      "narrow": "y"
+    },
+    "month": {
+      "long": "month",
+      "short": "mth",
+      "narrow": "m"
+    },
+    "week": {
+      "long": "week",
+      "short": "wk",
+      "narrow": "w"
+    },
+    "day": {
+      "long": "day",
+      "short": "day",
+      "narrow": "d"
+    },
+    "hour": {
+      "long": "hour",
+      "short": "hr",
+      "narrow": "h"
+    },
+    "minute": {
+      "long": "minute",
+      "short": "min",
+      "narrow": "m"
+    },
+    "second": {
+      "long": "second",
+      "short": "sec",
+      "narrow": "s"
+    }
+  },
+  "he-IL": {
+    "year": {
+      "long": "שנה",
+      "short": "שנה",
+      "narrow": "ש′"
+    },
+    "month": {
+      "long": "חודש",
+      "short": "חודש",
+      "narrow": "ח׳"
+    },
+    "week": {
+      "long": "שבוע",
+      "short": "שבוע",
+      "narrow": "ש′"
+    },
+    "day": {
+      "long": "יום",
+      "short": "יום",
+      "narrow": "י׳"
+    },
+    "hour": {
+      "long": "שעה",
+      "short": "שעה",
+      "narrow": "שעה"
+    },
+    "minute": {
+      "long": "דקה",
+      "short": "דקה",
+      "narrow": "דקה"
+    },
+    "second": {
+      "long": "שניה",
+      "short": "שנ׳",
+      "narrow": "שניה"
+    }
+  },
+  "de-DE": {
+    "year": {
+      "long": "Jahr",
+      "short": "J",
+      "narrow": "J"
+    },
+    "month": {
+      "long": "Monat",
+      "short": "Mon.",
+      "narrow": "M"
+    },
+    "week": {
+      "long": "Woche",
+      "short": "Wo.",
+      "narrow": "W"
+    },
+    "day": {
+      "long": "Tag",
+      "short": "Tg.",
+      "narrow": "T"
+    },
+    "hour": {
+      "long": "Stunde",
+      "short": "Std.",
+      "narrow": "Std."
+    },
+    "minute": {
+      "long": "Minute",
+      "short": "Min.",
+      "narrow": "Min."
+    },
+    "second": {
+      "long": "Sekunde",
+      "short": "Sek.",
+      "narrow": "Sek."
+    }
+  },
+  "ja-JP": {
+    "year": {
+      "long": "年",
+      "short": "年",
+      "narrow": "y"
+    },
+    "month": {
+      "long": "か月",
+      "short": "か月",
+      "narrow": "m"
+    },
+    "week": {
+      "long": "週間",
+      "short": "週間",
+      "narrow": "w"
+    },
+    "day": {
+      "long": "日",
+      "short": "日",
+      "narrow": "d"
+    },
+    "hour": {
+      "long": "時間",
+      "short": "時間",
+      "narrow": "h"
+    },
+    "minute": {
+      "long": "分",
+      "short": "分",
+      "narrow": "m"
+    },
+    "second": {
+      "long": "秒",
+      "short": "秒",
+      "narrow": "s"
+    }
+  },
+  "fr-FR": {
+    "year": {
+      "long": "an",
+      "short": "an",
+      "narrow": "a"
+    },
+    "month": {
+      "long": "mois",
+      "short": "m.",
+      "narrow": "m."
+    },
+    "week": {
+      "long": "semaine",
+      "short": "sem.",
+      "narrow": "sem."
+    },
+    "day": {
+      "long": "jour",
+      "short": "j",
+      "narrow": "j"
+    },
+    "hour": {
+      "long": "heure",
+      "short": "h",
+      "narrow": "h"
+    },
+    "minute": {
+      "long": "minute",
+      "short": "min",
+      "narrow": "min"
+    },
+    "second": {
+      "long": "seconde",
+      "short": "s",
+      "narrow": "s"
+    }
+  },
+  "zh-CN": {
+    "year": {
+      "long": "年",
+      "short": "年",
+      "narrow": "年"
+    },
+    "month": {
+      "long": "个月",
+      "short": "个月",
+      "narrow": "个月"
+    },
+    "week": {
+      "long": "周",
+      "short": "周",
+      "narrow": "周"
+    },
+    "day": {
+      "long": "天",
+      "short": "天",
+      "narrow": "天"
+    },
+    "hour": {
+      "long": "小时",
+      "short": "小时",
+      "narrow": "小时"
+    },
+    "minute": {
+      "long": "分钟",
+      "short": "分钟",
+      "narrow": "分钟"
+    },
+    "second": {
+      "long": "秒钟",
+      "short": "秒",
+      "narrow": "秒"
+    }
+  },
+  "ar-SA": {
+    "year": {
+      "long": "سنة",
+      "short": "سنة",
+      "narrow": "سنة"
+    },
+    "month": {
+      "long": "شهر",
+      "short": "شهر",
+      "narrow": "شهر"
+    },
+    "week": {
+      "long": "أسبوع",
+      "short": "أسبوع",
+      "narrow": "أ"
+    },
+    "day": {
+      "long": "يوم",
+      "short": "يوم",
+      "narrow": "ي"
+    },
+    "hour": {
+      "long": "ساعة",
+      "short": "س",
+      "narrow": "س"
+    },
+    "minute": {
+      "long": "دقيقة",
+      "short": "د",
+      "narrow": "د"
+    },
+    "second": {
+      "long": "ثانية",
+      "short": "ث",
+      "narrow": "ث"
+    }
+  },
+  "es-ES": {
+    "year": {
+      "long": "año",
+      "short": "a",
+      "narrow": "a"
+    },
+    "month": {
+      "long": "mes",
+      "short": "m.",
+      "narrow": "m"
+    },
+    "week": {
+      "long": "semana",
+      "short": "sem.",
+      "narrow": "sem"
+    },
+    "day": {
+      "long": "día",
+      "short": "d",
+      "narrow": "d"
+    },
+    "hour": {
+      "long": "hora",
+      "short": "h",
+      "narrow": "h"
+    },
+    "minute": {
+      "long": "minuto",
+      "short": "min",
+      "narrow": "min"
+    },
+    "second": {
+      "long": "segundo",
+      "short": "s",
+      "narrow": "s"
+    }
+  }
+}

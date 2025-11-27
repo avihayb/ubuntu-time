@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Intl Unit Extractor</title>
+</head>
+
+<body>
+    <h1>Localized Unit Symbols Generator</h1>
+    <p>Open your browser's developer console (F12 or Ctrl+Shift=I) to see the generated JSON data.</p>
+    <button onclick="generateData()">Generate and Download Data</button>
+
+    <script>
+        const locales = ['en-US', 'en-GB', 'he-IL', 'de-DE', 'ja-JP', 'fr-FR', 'zh-CN', 'ar-SA', 'es-ES'];
+        const units = ['year', 'month', 'week', 'day', 'hour', 'minute', 'second'];
+        const displayStyles = ['long', 'short', 'narrow'];
+        const TEST_NUMBER = 2;
+
+        function generateUnitSymbolsNumberFormat(localeList, unitsList, stylesList) {
+            const unitDatabase = {};
+
+            localeList.forEach(locale => {
+                unitDatabase[locale] = {};
+
+                unitsList.forEach(unit => {
+                    unitDatabase[locale][unit] = {};
+
+                    stylesList.forEach(style => {
+                        try {
+                            const options = {
+                                style: 'unit',
+                                unit: unit,
+                                unitDisplay: style,
+                                // Force the use of Latin (Western) digits for *all* locales
+                                // This bypasses locale grammar that uses words for small numbers (like 2)
+                                numberingSystem: 'latn'
+                            };
+
+                            const formatter = new Intl.NumberFormat(locale + '-u-nu-latn', options);
+                            const parts = formatter.formatToParts(TEST_NUMBER);
+                            const unitPart = parts.find(p => p.type === 'unit');
+
+                            if (unitPart) {
+                                unitDatabase[locale][unit][style] = unitPart.value.trim();
+                            } else {
+                                // Fallback for browsers without formatToParts
+                                const fallbackString = formatter.format(TEST_NUMBER).replace(TEST_NUMBER.toString(), '').trim();
+                                unitDatabase[locale][unit][style] = fallbackString || "N/A_PartNotFound";
+                            }
+                        } catch (e) {
+                            console.error(`Error with locale ${locale}, unit ${unit}, style ${style}: ${e.message}`);
+                            unitDatabase[locale][unit][style] = "N/A_Error";
+                        }
+                    });
+                });
+            });
+
+            return unitDatabase;
+        }
+
+        function generateData() {
+            console.log("Generating localized unit data...");
+            const localizedSymbols = generateUnitSymbolsNumberFormat(locales, units, displayStyles);
+            console.log("--- Generated JSON Data ---");
+            console.log(JSON.stringify(localizedSymbols, null, 2));
+            console.log("---------------------------");
+            downloadJson(localizedSymbols, 'localizedUnitSymbols_ForcedDigits.json');
+        }
+
+        function downloadJson(data, filename) {
+            const jsonStr = JSON.stringify(data, null, 2);
+            const blob = new Blob([jsonStr], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,187 @@
+{
+  "en-US": {
+    "year": {
+      "long": "N/A",
+      "short": "N/A",
+      "narrow": "N/A"
+    },
+    "month": {
+      "long": "N/A",
+      "short": "N/A",
+      "narrow": "N/A"
+    },
+    "week": {
+      "long": "N/A",
+      "short": "N/A",
+      "narrow": "N/A"
+    },
+    "day": {
+      "long": "N/A",
+      "short": "N/A",
+      "narrow": "N/A"
+    },
+    "hour": {
+      "long": "N/A",
+      "short": "N/A",
+      "narrow": "N/A"
+    },
+    "minute": {
+      "long": "N/A",
+      "short": "N/A",
+      "narrow": "N/A"
+    },
+    "second": {
+      "long": "N/A",
+      "short": "N/A",
+      "narrow": "N/A"
+    }
+  },
+  "en-GB": {
+    "year": {
+      "long": "N/A",
+      "short": "N/A",
+      "narrow": "N/A"
+    },
+    "month": {
+      "long": "N/A",
+      "short": "N/A",
+      "narrow": "N/A"
+    },
+    "week": {
+      "long": "N/A",
+      "short": "N/A",
+      "narrow": "N/A"
+    },
+    "day": {
+      "long": "N/A",
+      "short": "N/A",
+      "narrow": "N/A"
+    },
+    "hour": {
+      "long": "N/A",
+      "short": "N/A",
+      "narrow": "N/A"
+    },
+    "minute": {
+      "long": "N/A",
+      "short": "N/A",
+      "narrow": "N/A"
+    },
+    "second": {
+      "long": "N/A",
+      "short": "N/A",
+      "narrow": "N/A"
+    }
+  },
+  "he-IL": {
+    "year": {
+      "long": "N/A",
+      "short": "N/A",
+      "narrow": "N/A"
+    },
+    "month": {
+      "long": "N/A",
+      "short": "N/A",
+      "narrow": "N/A"
+    },
+    "week": {
+      "long": "N/A",
+      "short": "N/A",
+      "narrow": "N/A"
+    },
+    "day": {
+      "long": "N/A",
+      "short": "N/A",
+      "narrow": "N/A"
+    },
+    "hour": {
+      "long": "N/A",
+      "short": "N/A",
+      "narrow": "N/A"
+    },
+    "minute": {
+      "long": "N/A",
+      "short": "N/A",
+      "narrow": "N/A"
+    },
+    "second": {
+      "long": "N/A",
+      "short": "N/A",
+      "narrow": "N/A"
+    }
+  },
+  "de-DE": {
+    "year": {
+      "long": "N/A",
+      "short": "N/A",
+      "narrow": "N/A"
+    },
+    "month": {
+      "long": "N/A",
+      "short": "N/A",
+      "narrow": "N/A"
+    },
+    "week": {
+      "long": "N/A",
+      "short": "N/A",
+      "narrow": "N/A"
+    },
+    "day": {
+      "long": "N/A",
+      "short": "N/A",
+      "narrow": "N/A"
+    },
+    "hour": {
+      "long": "N/A",
+      "short": "N/A",
+      "narrow": "N/A"
+    },
+    "minute": {
+      "long": "N/A",
+      "short": "N/A",
+      "narrow": "N/A"
+    },
+    "second": {
+      "long": "N/A",
+      "short": "N/A",
+      "narrow": "N/A"
+    }
+  },
+  "ja-JP": {
+    "year": {
+      "long": "N/A",
+      "short": "N/A",
+      "narrow": "N/A"
+    },
+    "month": {
+      "long": "N/A",
+      "short": "N/A",
+      "narrow": "N/A"
+    },
+    "week": {
+      "long": "N/A",
+      "short": "N/A",
+      "narrow": "N/A"
+    },
+    "day": {
+      "long": "N/A",
+      "short": "N/A",
+      "narrow": "N/A"
+    },
+    "hour": {
+      "long": "N/A",
+      "short": "N/A",
+      "narrow": "N/A"
+    },
+    "minute": {
+      "long": "N/A",
+      "short": "N/A",
+      "narrow": "N/A"
+    },
+    "second": {
+      "long": "N/A",
+      "short": "N/A",
+      "narrow": "N/A"
+    }
+  }
+}
