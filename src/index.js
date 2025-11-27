@@ -85,6 +85,10 @@ export function formatToParts({ to, from = new Date(), style = 'short', duration
 function getLocale(locale) {
     if (locale) return locale;
     if (typeof navigator !== 'undefined' && navigator.language) return navigator.language;
+    if (typeof Intl !== 'undefined' && Intl.DateTimeFormat) {
+        const options = new Intl.DateTimeFormat().resolvedOptions();
+        if (options.locale) return options.locale;
+    }
     return 'en-US';
 }
 

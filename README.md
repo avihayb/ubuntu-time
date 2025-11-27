@@ -57,8 +57,65 @@ for example:
 ## Usage
 
 ```javascript
-import { format } from './src/index.js';
+import { format } from 'ubuntu-time';
 
 const date = new Date();
-console.log(format(date));
+console.log(format({ to: date }).text);
+```
+
+## Examples
+
+### Styles
+
+The library supports 4 styles: `compact`, `short` (default), `long`, and `longer`.
+
+```javascript
+import { format } from 'ubuntu-time';
+
+const now = new Date();
+const target = new Date(now.getTime() + 2 * 60 * 60 * 1000); // 2 hours from now
+
+// Compact
+// Output: 11-27(Wed) 3:45 PM(+2h)
+console.log(format({ to: target, style: 'compact' }).text);
+
+// Short (Default)
+// Output: 25-11-27(Wed) 3:45 PM(+2h)
+console.log(format({ to: target, style: 'short' }).text);
+
+// Long
+// Output: 2025-11-27(Wednesday) 3:45 PM(in 2 hours)
+console.log(format({ to: target, style: 'long' }).text);
+
+// Longer
+// Output: 2025-11-27(Wednesday) 3:45 PM(in 2 hours)
+console.log(format({ to: target, style: 'longer' }).text);
+```
+
+### Locales
+
+You can specify a locale. If not specified, it defaults to `navigator.language`, the system language or `en-US`.
+
+```javascript
+const target = new Date();
+
+// Hebrew
+// Output: 11-27(ד׳) 15:45(+0ש׳)
+console.log(format({ to: target, locale: 'he-IL' }).text);
+
+// French
+// Output: 11-27(mer.) 15:45(+0 h)
+console.log(format({ to: target, locale: 'fr-FR' }).text);
+```
+
+### Relative Time
+
+The relative time part adapts to the duration.
+
+```javascript
+const now = new Date();
+const past = new Date(now.getTime() - 3 * 24 * 60 * 60 * 1000); // 3 days ago
+
+// Output: ... (-3d)
+console.log(format({ to: past, from: now }).text);
 ```
