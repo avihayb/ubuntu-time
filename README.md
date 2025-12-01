@@ -99,13 +99,17 @@ You can specify a locale. If not specified, it defaults to `navigator.language`,
 ```javascript
 const target = new Date();
 
-// Hebrew
-// Output: 11-27(ד׳) 15:45(+0ש׳)
-console.log(format({ to: target, locale: 'he-IL' }).text);
+// Arabic
+// Output: 11-27(الأربعاء) 15:45(+0 س)
+console.log(format({ to: target, locale: 'ar-EG' }).text);
 
 // French
 // Output: 11-27(mer.) 15:45(+0 h)
 console.log(format({ to: target, locale: 'fr-FR' }).text);
+
+// Hebrew
+// Output: 11-27(ד׳) 15:45(+0ש׳)
+console.log(format({ to: target, locale: 'he-IL' }).text);
 ```
 
 ### Relative Time
