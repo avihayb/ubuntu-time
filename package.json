@@ -1,6 +1,6 @@
 {
   "name": "useful-time",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An opinionated JavaScript library for formatting datetime in an easy to process format.",
   "main": "src/index.js",
   "type": "module",
