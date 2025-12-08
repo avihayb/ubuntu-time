@@ -1,5 +1,6 @@
-//safer then json loading
-export const overrides = {
+// Safer than JSON loading
+// Duration unit templates for compact format
+export const durationUnitOverrides = {
     "he": {
         "day": "{number} י'",
         "week": "{number} שב'",
@@ -19,4 +20,4 @@ export const overrides = {
     "syr": {
         "day": "{number}ܝܘܡܐ"
     }
-}
+};

@@ -1,0 +1,4960 @@
+{
+  "summary": {
+    "totalAmbiguousAfter2Letter": 112,
+    "becomesDistinctWith3Letter": 80,
+    "stillAmbiguousWith3Letter": 32,
+    "percentBecomesDistinct": 71,
+    "overallCoverage": {
+      "totalLocales": 658,
+      "distinctNarrow": 166,
+      "distinct2Letter": 380,
+      "distinct3Letter": 80,
+      "totalDistinct": 626,
+      "stillAmbiguous": 32,
+      "percentDistinct": 95
+    }
+  },
+  "lengthStats": {
+    "min": 1,
+    "max": 23,
+    "byLocale": [
+      {
+        "locale": "gv",
+        "min": 3,
+        "max": 4,
+        "avg": 3.3,
+        "lengths": [
+          3,
+          3,
+          3,
+          4,
+          4,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "ha",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "hu",
+        "min": 1,
+        "max": 3,
+        "avg": 1.7,
+        "lengths": [
+          1,
+          1,
+          1,
+          3,
+          2,
+          1,
+          3
+        ]
+      },
+      {
+        "locale": "hy",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "id",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "jv",
+        "min": 3,
+        "max": 4,
+        "avg": 3.1,
+        "lengths": [
+          4,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "ki",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "lg",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "lu",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "lv",
+        "min": 5,
+        "max": 8,
+        "avg": 6.3,
+        "lengths": [
+          6,
+          6,
+          5,
+          6,
+          8,
+          7,
+          6
+        ]
+      },
+      {
+        "locale": "mg",
+        "min": 3,
+        "max": 5,
+        "avg": 3.9,
+        "lengths": [
+          4,
+          5,
+          3,
+          4,
+          4,
+          3,
+          4
+        ]
+      },
+      {
+        "locale": "mi",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "my",
+        "min": 3,
+        "max": 9,
+        "avg": 6.7,
+        "lengths": [
+          9,
+          7,
+          6,
+          8,
+          8,
+          6,
+          3
+        ]
+      },
+      {
+        "locale": "nd",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "oc",
+        "min": 6,
+        "max": 9,
+        "avg": 7.1,
+        "lengths": [
+          7,
+          6,
+          6,
+          8,
+          6,
+          9,
+          8
+        ]
+      },
+      {
+        "locale": "pt",
+        "min": 4,
+        "max": 4,
+        "avg": 4,
+        "lengths": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "locale": "rn",
+        "min": 3,
+        "max": 4,
+        "avg": 3.9,
+        "lengths": [
+          3,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "locale": "rw",
+        "min": 4,
+        "max": 4,
+        "avg": 4,
+        "lengths": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "locale": "sg",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "sn",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "su",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "sw",
+        "min": 6,
+        "max": 8,
+        "avg": 7.6,
+        "lengths": [
+          8,
+          8,
+          7,
+          8,
+          8,
+          6,
+          8
+        ]
+      },
+      {
+        "locale": "ur",
+        "min": 3,
+        "max": 6,
+        "avg": 4.1,
+        "lengths": [
+          5,
+          3,
+          4,
+          3,
+          6,
+          4,
+          4
+        ]
+      },
+      {
+        "locale": "yo",
+        "min": 2,
+        "max": 5,
+        "avg": 3.7,
+        "lengths": [
+          3,
+          2,
+          5,
+          5,
+          5,
+          2,
+          4
+        ]
+      },
+      {
+        "locale": "za",
+        "min": 10,
+        "max": 14,
+        "avg": 11.9,
+        "lengths": [
+          14,
+          10,
+          13,
+          11,
+          12,
+          11,
+          12
+        ]
+      },
+      {
+        "locale": "agq",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "asa",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "bem",
+        "min": 9,
+        "max": 12,
+        "avg": 10.4,
+        "lengths": [
+          10,
+          9,
+          11,
+          11,
+          9,
+          11,
+          12
+        ]
+      },
+      {
+        "locale": "bez",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "ccp",
+        "min": 4,
+        "max": 8,
+        "avg": 5.6,
+        "lengths": [
+          4,
+          4,
+          7,
+          4,
+          8,
+          8,
+          4
+        ]
+      },
+      {
+        "locale": "cgg",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "dav",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "dje",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "dyo",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "ebu",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "ewo",
+        "min": 3,
+        "max": 4,
+        "avg": 3.3,
+        "lengths": [
+          4,
+          4,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "guz",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "jmc",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "kab",
+        "min": 3,
+        "max": 4,
+        "avg": 3.3,
+        "lengths": [
+          3,
+          3,
+          4,
+          3,
+          3,
+          4,
+          3
+        ]
+      },
+      {
+        "locale": "kam",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "khq",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "kln",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "lij",
+        "min": 5,
+        "max": 8,
+        "avg": 6.9,
+        "lengths": [
+          8,
+          7,
+          7,
+          7,
+          7,
+          7,
+          5
+        ]
+      },
+      {
+        "locale": "lkt",
+        "min": 10,
+        "max": 13,
+        "avg": 11.4,
+        "lengths": [
+          12,
+          11,
+          11,
+          11,
+          10,
+          12,
+          13
+        ]
+      },
+      {
+        "locale": "luo",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "mer",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "mgh",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "nds",
+        "min": 7,
+        "max": 10,
+        "avg": 8.3,
+        "lengths": [
+          7,
+          7,
+          8,
+          10,
+          10,
+          7,
+          9
+        ]
+      },
+      {
+        "locale": "nmg",
+        "min": 3,
+        "max": 4,
+        "avg": 3.3,
+        "lengths": [
+          4,
+          4,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "nnh",
+        "min": 10,
+        "max": 23,
+        "avg": 14.9,
+        "lengths": [
+          13,
+          10,
+          19,
+          14,
+          23,
+          15,
+          10
+        ]
+      },
+      {
+        "locale": "nqo",
+        "min": 3,
+        "max": 4,
+        "avg": 3.7,
+        "lengths": [
+          4,
+          4,
+          4,
+          3,
+          3,
+          4,
+          4
+        ]
+      },
+      {
+        "locale": "nyn",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "rwk",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "sat",
+        "min": 2,
+        "max": 4,
+        "avg": 2.7,
+        "lengths": [
+          3,
+          2,
+          2,
+          3,
+          4,
+          3,
+          2
+        ]
+      },
+      {
+        "locale": "sbp",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "ses",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "shi",
+        "min": 3,
+        "max": 4,
+        "avg": 3.3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4
+        ]
+      },
+      {
+        "locale": "teo",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "tok",
+        "min": 12,
+        "max": 12,
+        "avg": 12,
+        "lengths": [
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ]
+      },
+      {
+        "locale": "twq",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "tzm",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "vai",
+        "min": 3,
+        "max": 4,
+        "avg": 3.3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          3
+        ]
+      },
+      {
+        "locale": "vmw",
+        "min": 8,
+        "max": 16,
+        "avg": 9.4,
+        "lengths": [
+          9,
+          16,
+          8,
+          8,
+          8,
+          9,
+          8
+        ]
+      },
+      {
+        "locale": "vun",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "wae",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "xog",
+        "min": 4,
+        "max": 4,
+        "avg": 4,
+        "lengths": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "locale": "yrl",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "zgh",
+        "min": 3,
+        "max": 4,
+        "avg": 3.3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4
+        ]
+      },
+      {
+        "locale": "ha-GH",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "ha-NE",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "ha-NG",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "hu-HU",
+        "min": 1,
+        "max": 3,
+        "avg": 1.7,
+        "lengths": [
+          1,
+          1,
+          1,
+          3,
+          2,
+          1,
+          3
+        ]
+      },
+      {
+        "locale": "hy-AM",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "id-ID",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "jv-ID",
+        "min": 3,
+        "max": 4,
+        "avg": 3.1,
+        "lengths": [
+          4,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "ki-KE",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "lg-UG",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "lu-CD",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "lv-LV",
+        "min": 5,
+        "max": 8,
+        "avg": 6.3,
+        "lengths": [
+          6,
+          6,
+          5,
+          6,
+          8,
+          7,
+          6
+        ]
+      },
+      {
+        "locale": "mg-MG",
+        "min": 3,
+        "max": 5,
+        "avg": 3.9,
+        "lengths": [
+          4,
+          5,
+          3,
+          4,
+          4,
+          3,
+          4
+        ]
+      },
+      {
+        "locale": "mi-NZ",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "my-MM",
+        "min": 3,
+        "max": 9,
+        "avg": 6.7,
+        "lengths": [
+          9,
+          7,
+          6,
+          8,
+          8,
+          6,
+          3
+        ]
+      },
+      {
+        "locale": "nd-ZW",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "oc-FR",
+        "min": 6,
+        "max": 9,
+        "avg": 7.1,
+        "lengths": [
+          7,
+          6,
+          6,
+          8,
+          6,
+          9,
+          8
+        ]
+      },
+      {
+        "locale": "oc-ES",
+        "min": 6,
+        "max": 9,
+        "avg": 7.1,
+        "lengths": [
+          7,
+          6,
+          6,
+          8,
+          6,
+          9,
+          8
+        ]
+      },
+      {
+        "locale": "pa-PK",
+        "min": 3,
+        "max": 6,
+        "avg": 4.3,
+        "lengths": [
+          5,
+          3,
+          4,
+          4,
+          6,
+          4,
+          4
+        ]
+      },
+      {
+        "locale": "pt-AO",
+        "min": 5,
+        "max": 7,
+        "avg": 6,
+        "lengths": [
+          7,
+          7,
+          5,
+          6,
+          6,
+          5,
+          6
+        ]
+      },
+      {
+        "locale": "pt-BR",
+        "min": 4,
+        "max": 4,
+        "avg": 4,
+        "lengths": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "locale": "pt-CV",
+        "min": 5,
+        "max": 7,
+        "avg": 6,
+        "lengths": [
+          7,
+          7,
+          5,
+          6,
+          6,
+          5,
+          6
+        ]
+      },
+      {
+        "locale": "pt-GQ",
+        "min": 5,
+        "max": 7,
+        "avg": 6,
+        "lengths": [
+          7,
+          7,
+          5,
+          6,
+          6,
+          5,
+          6
+        ]
+      },
+      {
+        "locale": "pt-GW",
+        "min": 5,
+        "max": 7,
+        "avg": 6,
+        "lengths": [
+          7,
+          7,
+          5,
+          6,
+          6,
+          5,
+          6
+        ]
+      },
+      {
+        "locale": "pt-LU",
+        "min": 5,
+        "max": 7,
+        "avg": 6,
+        "lengths": [
+          7,
+          7,
+          5,
+          6,
+          6,
+          5,
+          6
+        ]
+      },
+      {
+        "locale": "pt-MO",
+        "min": 5,
+        "max": 7,
+        "avg": 6,
+        "lengths": [
+          7,
+          7,
+          5,
+          6,
+          6,
+          5,
+          6
+        ]
+      },
+      {
+        "locale": "pt-MZ",
+        "min": 5,
+        "max": 7,
+        "avg": 6,
+        "lengths": [
+          7,
+          7,
+          5,
+          6,
+          6,
+          5,
+          6
+        ]
+      },
+      {
+        "locale": "pt-PT",
+        "min": 5,
+        "max": 7,
+        "avg": 6,
+        "lengths": [
+          7,
+          7,
+          5,
+          6,
+          6,
+          5,
+          6
+        ]
+      },
+      {
+        "locale": "pt-ST",
+        "min": 5,
+        "max": 7,
+        "avg": 6,
+        "lengths": [
+          7,
+          7,
+          5,
+          6,
+          6,
+          5,
+          6
+        ]
+      },
+      {
+        "locale": "pt-CH",
+        "min": 5,
+        "max": 7,
+        "avg": 6,
+        "lengths": [
+          7,
+          7,
+          5,
+          6,
+          6,
+          5,
+          6
+        ]
+      },
+      {
+        "locale": "pt-TL",
+        "min": 5,
+        "max": 7,
+        "avg": 6,
+        "lengths": [
+          7,
+          7,
+          5,
+          6,
+          6,
+          5,
+          6
+        ]
+      },
+      {
+        "locale": "rn-BI",
+        "min": 3,
+        "max": 4,
+        "avg": 3.9,
+        "lengths": [
+          3,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "locale": "rw-RW",
+        "min": 4,
+        "max": 4,
+        "avg": 4,
+        "lengths": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "locale": "sg-CF",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "sn-ZW",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "su-ID",
+        "min": 3,
+        "max": 3,
+        "avg": 3,
+        "lengths": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "locale": "sw-CD",
+        "min": 6,
+        "max": 8,
+        "avg": 7.6,
+        "lengths": [
+          8,
+          8,
+          7,
+          8,
+          8,
+          6,
+          8
+        ]
+      },
+      {
+        "locale": "sw-KE",
+        "min": 6,
+        "max": 8,
+        "avg": 7.6,
+        "lengths": [
+          8,
+          8,
+          7,
+          8,
+          8,
+          6,
+          8
+        ]
+      },
+      {
+        "locale": "sw-TZ",
+        "min": 6,
+        "max": 8,
+        "avg": 7.6,
+        "lengths": [
+          8,
+          8,
+          7,
+          8,
+          8,
+          6,
+          8
+        ]
+      },
+      {
+        "locale": "sw-UG",
+        "min": 6,
+        "max": 8,
+        "avg": 7.6,
+        "lengths": [
+          8,
+          8,
+          7,
+          8,
+          8,
+          6,
+          8
+        ]
+      },
+      {
+        "locale": "ur-IN",
+        "min": 3,
+        "max": 6,
+        "avg": 4.1,
+        "lengths": [
+          5,
+          3,
+          4,
+          3,
+          6,
+          4,
+          4
+        ]
+      },
+      {
+        "locale": "ur-PK",
+        "min": 3,
+        "max": 6,
+        "avg": 4.1,
+        "lengths": [
+          5,
+          3,
+          4,
+          3,
+          6,
+          4,
+          4
+        ]
+      },
+      {
+        "locale": "yo-BJ",
+        "min": 2,
+        "max": 5,
+        "avg": 3.7,
+        "lengths": [
+          3,
+          2,
+          5,
+          5,
+          5,
+          2,
+          4
+        ]
+      },
+      {
+        "locale": "yo-NG",
+        "min": 2,
+        "max": 5,
+        "avg": 3.7,
+        "lengths": [
+          3,
+          2,
+          5,
+          5,
+          5,
+          2,
+          4
+        ]
+      },
+      {
+        "locale": "za-CN",
+        "min": 10,
+        "max": 14,
+        "avg": 11.9,
+        "lengths": [
+          14,
+          10,
+          13,
+          11,
+          12,
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  "becomesDistinct": [
+    {
+      "locale": "ha",
+      "short": [
+        "Lah",
+        "Lit",
+        "Tal",
+        "Lar",
+        "Alh",
+        "Jum",
+        "Asa"
+      ],
+      "threeLetter": [
+        "Lah",
+        "Lit",
+        "Tal",
+        "Lar",
+        "Alh",
+        "Jum",
+        "Asa"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "hu",
+      "short": [
+        "V",
+        "H",
+        "K",
+        "Sze",
+        "Cs",
+        "P",
+        "Szo"
+      ],
+      "threeLetter": [
+        "V",
+        "H",
+        "K",
+        "Sze",
+        "Cs",
+        "P",
+        "Szo"
+      ],
+      "lengths": {
+        "min": 1,
+        "max": 3,
+        "avg": 1.7
+      }
+    },
+    {
+      "locale": "hy",
+      "short": [
+        "կիր",
+        "երկ",
+        "երք",
+        "չրք",
+        "հնգ",
+        "ուր",
+        "շբթ"
+      ],
+      "threeLetter": [
+        "կիր",
+        "երկ",
+        "երք",
+        "չրք",
+        "հնգ",
+        "ուր",
+        "շբթ"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "id",
+      "short": [
+        "Min",
+        "Sen",
+        "Sel",
+        "Rab",
+        "Kam",
+        "Jum",
+        "Sab"
+      ],
+      "threeLetter": [
+        "Min",
+        "Sen",
+        "Sel",
+        "Rab",
+        "Kam",
+        "Jum",
+        "Sab"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "jv",
+      "short": [
+        "Ahad",
+        "Sen",
+        "Sel",
+        "Rab",
+        "Kam",
+        "Jum",
+        "Sab"
+      ],
+      "threeLetter": [
+        "Aha",
+        "Sen",
+        "Sel",
+        "Rab",
+        "Kam",
+        "Jum",
+        "Sab"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 4,
+        "avg": 3.1
+      }
+    },
+    {
+      "locale": "ki",
+      "short": [
+        "KMA",
+        "NTT",
+        "NMN",
+        "NMT",
+        "ART",
+        "NMA",
+        "NMM"
+      ],
+      "threeLetter": [
+        "KMA",
+        "NTT",
+        "NMN",
+        "NMT",
+        "ART",
+        "NMA",
+        "NMM"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "lg",
+      "short": [
+        "Sab",
+        "Bal",
+        "Lw2",
+        "Lw3",
+        "Lw4",
+        "Lw5",
+        "Lw6"
+      ],
+      "threeLetter": [
+        "Sab",
+        "Bal",
+        "Lw2",
+        "Lw3",
+        "Lw4",
+        "Lw5",
+        "Lw6"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "lu",
+      "short": [
+        "Lum",
+        "Nko",
+        "Ndy",
+        "Ndg",
+        "Njw",
+        "Ngv",
+        "Lub"
+      ],
+      "threeLetter": [
+        "Lum",
+        "Nko",
+        "Ndy",
+        "Ndg",
+        "Njw",
+        "Ngv",
+        "Lub"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "lv",
+      "short": [
+        "Svētd.",
+        "Pirmd.",
+        "Otrd.",
+        "Trešd.",
+        "Ceturtd.",
+        "Piektd.",
+        "Sestd."
+      ],
+      "threeLetter": [
+        "Svē",
+        "Pir",
+        "Otr",
+        "Tre",
+        "Cet",
+        "Pie",
+        "Ses"
+      ],
+      "lengths": {
+        "min": 5,
+        "max": 8,
+        "avg": 6.3
+      }
+    },
+    {
+      "locale": "mi",
+      "short": [
+        "Rāt",
+        "Man",
+        "Tūr",
+        "Wen",
+        "Tāi",
+        "Par",
+        "Rāh"
+      ],
+      "threeLetter": [
+        "Rāt",
+        "Man",
+        "Tūr",
+        "Wen",
+        "Tāi",
+        "Par",
+        "Rāh"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "nd",
+      "short": [
+        "Son",
+        "Mvu",
+        "Sib",
+        "Sit",
+        "Sin",
+        "Sih",
+        "Mgq"
+      ],
+      "threeLetter": [
+        "Son",
+        "Mvu",
+        "Sib",
+        "Sit",
+        "Sin",
+        "Sih",
+        "Mgq"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "pt",
+      "short": [
+        "dom.",
+        "seg.",
+        "ter.",
+        "qua.",
+        "qui.",
+        "sex.",
+        "sáb."
+      ],
+      "threeLetter": [
+        "dom",
+        "seg",
+        "ter",
+        "qua",
+        "qui",
+        "sex",
+        "sáb"
+      ],
+      "lengths": {
+        "min": 4,
+        "max": 4,
+        "avg": 4
+      }
+    },
+    {
+      "locale": "rn",
+      "short": [
+        "cu.",
+        "mbe.",
+        "kab.",
+        "gtu.",
+        "kan.",
+        "gnu.",
+        "gnd."
+      ],
+      "threeLetter": [
+        "cu.",
+        "mbe",
+        "kab",
+        "gtu",
+        "kan",
+        "gnu",
+        "gnd"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 4,
+        "avg": 3.9
+      }
+    },
+    {
+      "locale": "rw",
+      "short": [
+        "cyu.",
+        "mbe.",
+        "kab.",
+        "gtu.",
+        "kan.",
+        "gnu.",
+        "gnd."
+      ],
+      "threeLetter": [
+        "cyu",
+        "mbe",
+        "kab",
+        "gtu",
+        "kan",
+        "gnu",
+        "gnd"
+      ],
+      "lengths": {
+        "min": 4,
+        "max": 4,
+        "avg": 4
+      }
+    },
+    {
+      "locale": "sg",
+      "short": [
+        "Bk1",
+        "Bk2",
+        "Bk3",
+        "Bk4",
+        "Bk5",
+        "Lâp",
+        "Lây"
+      ],
+      "threeLetter": [
+        "Bk1",
+        "Bk2",
+        "Bk3",
+        "Bk4",
+        "Bk5",
+        "Lâp",
+        "Lây"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "sn",
+      "short": [
+        "Svo",
+        "Muv",
+        "Chp",
+        "Cht",
+        "Chn",
+        "Chs",
+        "Mug"
+      ],
+      "threeLetter": [
+        "Svo",
+        "Muv",
+        "Chp",
+        "Cht",
+        "Chn",
+        "Chs",
+        "Mug"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "su",
+      "short": [
+        "Mng",
+        "Sen",
+        "Sal",
+        "Reb",
+        "Kem",
+        "Jum",
+        "Sap"
+      ],
+      "threeLetter": [
+        "Mng",
+        "Sen",
+        "Sal",
+        "Reb",
+        "Kem",
+        "Jum",
+        "Sap"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "agq",
+      "short": [
+        "nts",
+        "kpa",
+        "ghɔ",
+        "tɔm",
+        "ume",
+        "ghɨ",
+        "dzk"
+      ],
+      "threeLetter": [
+        "nts",
+        "kpa",
+        "ghɔ",
+        "tɔm",
+        "ume",
+        "ghɨ",
+        "dzk"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "asa",
+      "short": [
+        "Jpi",
+        "Jtt",
+        "Jnn",
+        "Jtn",
+        "Alh",
+        "Ijm",
+        "Jmo"
+      ],
+      "threeLetter": [
+        "Jpi",
+        "Jtt",
+        "Jnn",
+        "Jtn",
+        "Alh",
+        "Ijm",
+        "Jmo"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "bez",
+      "short": [
+        "Mul",
+        "Vil",
+        "Hiv",
+        "Hid",
+        "Hit",
+        "Hih",
+        "Lem"
+      ],
+      "threeLetter": [
+        "Mul",
+        "Vil",
+        "Hiv",
+        "Hid",
+        "Hit",
+        "Hih",
+        "Lem"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "ccp",
+      "short": [
+        "𑄢𑄧𑄝𑄨",
+        "𑄥𑄧𑄟𑄴",
+        "𑄟𑄧𑄁𑄉𑄧𑄣𑄴",
+        "𑄝𑄪𑄖𑄴",
+        "𑄝𑄳𑄢𑄨𑄥𑄪𑄛𑄴",
+        "𑄥𑄪𑄇𑄴𑄇𑄮𑄢𑄴",
+        "𑄥𑄧𑄚𑄨"
+      ],
+      "threeLetter": [
+        "𑄢𑄧𑄝",
+        "𑄥𑄧𑄟",
+        "𑄟𑄧𑄁",
+        "𑄝𑄪𑄖",
+        "𑄝𑄳𑄢",
+        "𑄥𑄪𑄇",
+        "𑄥𑄧𑄚"
+      ],
+      "lengths": {
+        "min": 4,
+        "max": 8,
+        "avg": 5.6
+      }
+    },
+    {
+      "locale": "cgg",
+      "short": [
+        "SAN",
+        "ORK",
+        "OKB",
+        "OKS",
+        "OKN",
+        "OKT",
+        "OMK"
+      ],
+      "threeLetter": [
+        "SAN",
+        "ORK",
+        "OKB",
+        "OKS",
+        "OKN",
+        "OKT",
+        "OMK"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "dav",
+      "short": [
+        "Jum",
+        "Jim",
+        "Kaw",
+        "Kad",
+        "Kan",
+        "Kas",
+        "Ngu"
+      ],
+      "threeLetter": [
+        "Jum",
+        "Jim",
+        "Kaw",
+        "Kad",
+        "Kan",
+        "Kas",
+        "Ngu"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "dje",
+      "short": [
+        "Alh",
+        "Ati",
+        "Ata",
+        "Ala",
+        "Alm",
+        "Alz",
+        "Asi"
+      ],
+      "threeLetter": [
+        "Alh",
+        "Ati",
+        "Ata",
+        "Ala",
+        "Alm",
+        "Alz",
+        "Asi"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "dyo",
+      "short": [
+        "Dim",
+        "Ten",
+        "Tal",
+        "Ala",
+        "Ara",
+        "Arj",
+        "Sib"
+      ],
+      "threeLetter": [
+        "Dim",
+        "Ten",
+        "Tal",
+        "Ala",
+        "Ara",
+        "Arj",
+        "Sib"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "ebu",
+      "short": [
+        "Kma",
+        "Tat",
+        "Ine",
+        "Tan",
+        "Arm",
+        "Maa",
+        "NMM"
+      ],
+      "threeLetter": [
+        "Kma",
+        "Tat",
+        "Ine",
+        "Tan",
+        "Arm",
+        "Maa",
+        "NMM"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "ewo",
+      "short": [
+        "sɔ́n",
+        "mɔ́n",
+        "smb",
+        "sml",
+        "smn",
+        "fúl",
+        "sér"
+      ],
+      "threeLetter": [
+        "sɔ́",
+        "mɔ́",
+        "smb",
+        "sml",
+        "smn",
+        "fúl",
+        "sér"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 4,
+        "avg": 3.3
+      }
+    },
+    {
+      "locale": "guz",
+      "short": [
+        "Cpr",
+        "Ctt",
+        "Cmn",
+        "Cmt",
+        "Ars",
+        "Icm",
+        "Est"
+      ],
+      "threeLetter": [
+        "Cpr",
+        "Ctt",
+        "Cmn",
+        "Cmt",
+        "Ars",
+        "Icm",
+        "Est"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "jmc",
+      "short": [
+        "Jpi",
+        "Jtt",
+        "Jnn",
+        "Jtn",
+        "Alh",
+        "Iju",
+        "Jmo"
+      ],
+      "threeLetter": [
+        "Jpi",
+        "Jtt",
+        "Jnn",
+        "Jtn",
+        "Alh",
+        "Iju",
+        "Jmo"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "kab",
+      "short": [
+        "Yan",
+        "San",
+        "Kraḍ",
+        "Kuẓ",
+        "Sam",
+        "Sḍis",
+        "Say"
+      ],
+      "threeLetter": [
+        "Yan",
+        "San",
+        "Kra",
+        "Kuẓ",
+        "Sam",
+        "Sḍi",
+        "Say"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 4,
+        "avg": 3.3
+      }
+    },
+    {
+      "locale": "kam",
+      "short": [
+        "Wky",
+        "Wkw",
+        "Wkl",
+        "Wtũ",
+        "Wkn",
+        "Wtn",
+        "Wth"
+      ],
+      "threeLetter": [
+        "Wky",
+        "Wkw",
+        "Wkl",
+        "Wtũ",
+        "Wkn",
+        "Wtn",
+        "Wth"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "khq",
+      "short": [
+        "Alh",
+        "Ati",
+        "Ata",
+        "Ala",
+        "Alm",
+        "Alj",
+        "Ass"
+      ],
+      "threeLetter": [
+        "Alh",
+        "Ati",
+        "Ata",
+        "Ala",
+        "Alm",
+        "Alj",
+        "Ass"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "kln",
+      "short": [
+        "Kts",
+        "Kot",
+        "Koo",
+        "Kos",
+        "Koa",
+        "Kom",
+        "Kol"
+      ],
+      "threeLetter": [
+        "Kts",
+        "Kot",
+        "Koo",
+        "Kos",
+        "Koa",
+        "Kom",
+        "Kol"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "lij",
+      "short": [
+        "domenega",
+        "lunesdì",
+        "mätesdì",
+        "mäcordì",
+        "zeuggia",
+        "venardì",
+        "sabbo"
+      ],
+      "threeLetter": [
+        "dom",
+        "lun",
+        "mät",
+        "mäc",
+        "zeu",
+        "ven",
+        "sab"
+      ],
+      "lengths": {
+        "min": 5,
+        "max": 8,
+        "avg": 6.9
+      }
+    },
+    {
+      "locale": "luo",
+      "short": [
+        "JMP",
+        "WUT",
+        "TAR",
+        "TAD",
+        "TAN",
+        "TAB",
+        "NGS"
+      ],
+      "threeLetter": [
+        "JMP",
+        "WUT",
+        "TAR",
+        "TAD",
+        "TAN",
+        "TAB",
+        "NGS"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "mer",
+      "short": [
+        "KIU",
+        "MRA",
+        "WAI",
+        "WET",
+        "WEN",
+        "WTN",
+        "JUM"
+      ],
+      "threeLetter": [
+        "KIU",
+        "MRA",
+        "WAI",
+        "WET",
+        "WEN",
+        "WTN",
+        "JUM"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "mgh",
+      "short": [
+        "Sab",
+        "Jtt",
+        "Jnn",
+        "Jtn",
+        "Ara",
+        "Iju",
+        "Jmo"
+      ],
+      "threeLetter": [
+        "Sab",
+        "Jtt",
+        "Jnn",
+        "Jtn",
+        "Ara",
+        "Iju",
+        "Jmo"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "nmg",
+      "short": [
+        "sɔ́n",
+        "mɔ́n",
+        "smb",
+        "sml",
+        "smn",
+        "mbs",
+        "sas"
+      ],
+      "threeLetter": [
+        "sɔ́",
+        "mɔ́",
+        "smb",
+        "sml",
+        "smn",
+        "mbs",
+        "sas"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 4,
+        "avg": 3.3
+      }
+    },
+    {
+      "locale": "nyn",
+      "short": [
+        "SAN",
+        "ORK",
+        "OKB",
+        "OKS",
+        "OKN",
+        "OKT",
+        "OMK"
+      ],
+      "threeLetter": [
+        "SAN",
+        "ORK",
+        "OKB",
+        "OKS",
+        "OKN",
+        "OKT",
+        "OMK"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "rwk",
+      "short": [
+        "Jpi",
+        "Jtt",
+        "Jnn",
+        "Jtn",
+        "Alh",
+        "Iju",
+        "Jmo"
+      ],
+      "threeLetter": [
+        "Jpi",
+        "Jtt",
+        "Jnn",
+        "Jtn",
+        "Alh",
+        "Iju",
+        "Jmo"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "sbp",
+      "short": [
+        "Mul",
+        "Jtt",
+        "Jnn",
+        "Jtn",
+        "Alh",
+        "Iju",
+        "Jmo"
+      ],
+      "threeLetter": [
+        "Mul",
+        "Jtt",
+        "Jnn",
+        "Jtn",
+        "Alh",
+        "Iju",
+        "Jmo"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "ses",
+      "short": [
+        "Alh",
+        "Ati",
+        "Ata",
+        "Ala",
+        "Alm",
+        "Alz",
+        "Asi"
+      ],
+      "threeLetter": [
+        "Alh",
+        "Ati",
+        "Ata",
+        "Ala",
+        "Alm",
+        "Alz",
+        "Asi"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "teo",
+      "short": [
+        "Jum",
+        "Bar",
+        "Aar",
+        "Uni",
+        "Ung",
+        "Kan",
+        "Sab"
+      ],
+      "threeLetter": [
+        "Jum",
+        "Bar",
+        "Aar",
+        "Uni",
+        "Ung",
+        "Kan",
+        "Sab"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "twq",
+      "short": [
+        "Alh",
+        "Ati",
+        "Ata",
+        "Ala",
+        "Alm",
+        "Alz",
+        "Asi"
+      ],
+      "threeLetter": [
+        "Alh",
+        "Ati",
+        "Ata",
+        "Ala",
+        "Alm",
+        "Alz",
+        "Asi"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "tzm",
+      "short": [
+        "Asa",
+        "Ayn",
+        "Asn",
+        "Akr",
+        "Akw",
+        "Asm",
+        "Asḍ"
+      ],
+      "threeLetter": [
+        "Asa",
+        "Ayn",
+        "Asn",
+        "Akr",
+        "Akw",
+        "Asm",
+        "Asḍ"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "vai",
+      "short": [
+        "ꕞꕌꔵ",
+        "ꗳꗡꘉ",
+        "ꕚꕞꕚ",
+        "ꕉꕞꕒ",
+        "ꕉꔤꕆꕢ",
+        "ꕉꔤꕀꕮ",
+        "ꔻꔬꔳ"
+      ],
+      "threeLetter": [
+        "ꕞꕌꔵ",
+        "ꗳꗡꘉ",
+        "ꕚꕞꕚ",
+        "ꕉꕞꕒ",
+        "ꕉꔤꕆ",
+        "ꕉꔤꕀ",
+        "ꔻꔬꔳ"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 4,
+        "avg": 3.3
+      }
+    },
+    {
+      "locale": "vun",
+      "short": [
+        "Jpi",
+        "Jtt",
+        "Jnn",
+        "Jtn",
+        "Alh",
+        "Iju",
+        "Jmo"
+      ],
+      "threeLetter": [
+        "Jpi",
+        "Jtt",
+        "Jnn",
+        "Jtn",
+        "Alh",
+        "Iju",
+        "Jmo"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "wae",
+      "short": [
+        "Sun",
+        "Män",
+        "Ziš",
+        "Mit",
+        "Fró",
+        "Fri",
+        "Sam"
+      ],
+      "threeLetter": [
+        "Sun",
+        "Män",
+        "Ziš",
+        "Mit",
+        "Fró",
+        "Fri",
+        "Sam"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "xog",
+      "short": [
+        "Sabi",
+        "Bala",
+        "Kubi",
+        "Kusa",
+        "Kuna",
+        "Kuta",
+        "Muka"
+      ],
+      "threeLetter": [
+        "Sab",
+        "Bal",
+        "Kub",
+        "Kus",
+        "Kun",
+        "Kut",
+        "Muk"
+      ],
+      "lengths": {
+        "min": 4,
+        "max": 4,
+        "avg": 4
+      }
+    },
+    {
+      "locale": "yrl",
+      "short": [
+        "mit",
+        "mur",
+        "mmk",
+        "mms",
+        "sup",
+        "yuk",
+        "sau"
+      ],
+      "threeLetter": [
+        "mit",
+        "mur",
+        "mmk",
+        "mms",
+        "sup",
+        "yuk",
+        "sau"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "ha-GH",
+      "short": [
+        "Lah",
+        "Lit",
+        "Tal",
+        "Lar",
+        "Alh",
+        "Jum",
+        "Asa"
+      ],
+      "threeLetter": [
+        "Lah",
+        "Lit",
+        "Tal",
+        "Lar",
+        "Alh",
+        "Jum",
+        "Asa"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "ha-NE",
+      "short": [
+        "Lah",
+        "Lit",
+        "Tal",
+        "Lar",
+        "Alh",
+        "Jum",
+        "Asa"
+      ],
+      "threeLetter": [
+        "Lah",
+        "Lit",
+        "Tal",
+        "Lar",
+        "Alh",
+        "Jum",
+        "Asa"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "ha-NG",
+      "short": [
+        "Lah",
+        "Lit",
+        "Tal",
+        "Lar",
+        "Alh",
+        "Jum",
+        "Asa"
+      ],
+      "threeLetter": [
+        "Lah",
+        "Lit",
+        "Tal",
+        "Lar",
+        "Alh",
+        "Jum",
+        "Asa"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "hu-HU",
+      "short": [
+        "V",
+        "H",
+        "K",
+        "Sze",
+        "Cs",
+        "P",
+        "Szo"
+      ],
+      "threeLetter": [
+        "V",
+        "H",
+        "K",
+        "Sze",
+        "Cs",
+        "P",
+        "Szo"
+      ],
+      "lengths": {
+        "min": 1,
+        "max": 3,
+        "avg": 1.7
+      }
+    },
+    {
+      "locale": "hy-AM",
+      "short": [
+        "կիր",
+        "երկ",
+        "երք",
+        "չրք",
+        "հնգ",
+        "ուր",
+        "շբթ"
+      ],
+      "threeLetter": [
+        "կիր",
+        "երկ",
+        "երք",
+        "չրք",
+        "հնգ",
+        "ուր",
+        "շբթ"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "id-ID",
+      "short": [
+        "Min",
+        "Sen",
+        "Sel",
+        "Rab",
+        "Kam",
+        "Jum",
+        "Sab"
+      ],
+      "threeLetter": [
+        "Min",
+        "Sen",
+        "Sel",
+        "Rab",
+        "Kam",
+        "Jum",
+        "Sab"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "jv-ID",
+      "short": [
+        "Ahad",
+        "Sen",
+        "Sel",
+        "Rab",
+        "Kam",
+        "Jum",
+        "Sab"
+      ],
+      "threeLetter": [
+        "Aha",
+        "Sen",
+        "Sel",
+        "Rab",
+        "Kam",
+        "Jum",
+        "Sab"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 4,
+        "avg": 3.1
+      }
+    },
+    {
+      "locale": "ki-KE",
+      "short": [
+        "KMA",
+        "NTT",
+        "NMN",
+        "NMT",
+        "ART",
+        "NMA",
+        "NMM"
+      ],
+      "threeLetter": [
+        "KMA",
+        "NTT",
+        "NMN",
+        "NMT",
+        "ART",
+        "NMA",
+        "NMM"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "lg-UG",
+      "short": [
+        "Sab",
+        "Bal",
+        "Lw2",
+        "Lw3",
+        "Lw4",
+        "Lw5",
+        "Lw6"
+      ],
+      "threeLetter": [
+        "Sab",
+        "Bal",
+        "Lw2",
+        "Lw3",
+        "Lw4",
+        "Lw5",
+        "Lw6"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "lu-CD",
+      "short": [
+        "Lum",
+        "Nko",
+        "Ndy",
+        "Ndg",
+        "Njw",
+        "Ngv",
+        "Lub"
+      ],
+      "threeLetter": [
+        "Lum",
+        "Nko",
+        "Ndy",
+        "Ndg",
+        "Njw",
+        "Ngv",
+        "Lub"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "lv-LV",
+      "short": [
+        "Svētd.",
+        "Pirmd.",
+        "Otrd.",
+        "Trešd.",
+        "Ceturtd.",
+        "Piektd.",
+        "Sestd."
+      ],
+      "threeLetter": [
+        "Svē",
+        "Pir",
+        "Otr",
+        "Tre",
+        "Cet",
+        "Pie",
+        "Ses"
+      ],
+      "lengths": {
+        "min": 5,
+        "max": 8,
+        "avg": 6.3
+      }
+    },
+    {
+      "locale": "mi-NZ",
+      "short": [
+        "Rāt",
+        "Man",
+        "Tūr",
+        "Wen",
+        "Tāi",
+        "Par",
+        "Rāh"
+      ],
+      "threeLetter": [
+        "Rāt",
+        "Man",
+        "Tūr",
+        "Wen",
+        "Tāi",
+        "Par",
+        "Rāh"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "nd-ZW",
+      "short": [
+        "Son",
+        "Mvu",
+        "Sib",
+        "Sit",
+        "Sin",
+        "Sih",
+        "Mgq"
+      ],
+      "threeLetter": [
+        "Son",
+        "Mvu",
+        "Sib",
+        "Sit",
+        "Sin",
+        "Sih",
+        "Mgq"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "pt-AO",
+      "short": [
+        "domingo",
+        "segunda",
+        "terça",
+        "quarta",
+        "quinta",
+        "sexta",
+        "sábado"
+      ],
+      "threeLetter": [
+        "dom",
+        "seg",
+        "ter",
+        "qua",
+        "qui",
+        "sex",
+        "sáb"
+      ],
+      "lengths": {
+        "min": 5,
+        "max": 7,
+        "avg": 6
+      }
+    },
+    {
+      "locale": "pt-BR",
+      "short": [
+        "dom.",
+        "seg.",
+        "ter.",
+        "qua.",
+        "qui.",
+        "sex.",
+        "sáb."
+      ],
+      "threeLetter": [
+        "dom",
+        "seg",
+        "ter",
+        "qua",
+        "qui",
+        "sex",
+        "sáb"
+      ],
+      "lengths": {
+        "min": 4,
+        "max": 4,
+        "avg": 4
+      }
+    },
+    {
+      "locale": "pt-CV",
+      "short": [
+        "domingo",
+        "segunda",
+        "terça",
+        "quarta",
+        "quinta",
+        "sexta",
+        "sábado"
+      ],
+      "threeLetter": [
+        "dom",
+        "seg",
+        "ter",
+        "qua",
+        "qui",
+        "sex",
+        "sáb"
+      ],
+      "lengths": {
+        "min": 5,
+        "max": 7,
+        "avg": 6
+      }
+    },
+    {
+      "locale": "pt-GQ",
+      "short": [
+        "domingo",
+        "segunda",
+        "terça",
+        "quarta",
+        "quinta",
+        "sexta",
+        "sábado"
+      ],
+      "threeLetter": [
+        "dom",
+        "seg",
+        "ter",
+        "qua",
+        "qui",
+        "sex",
+        "sáb"
+      ],
+      "lengths": {
+        "min": 5,
+        "max": 7,
+        "avg": 6
+      }
+    },
+    {
+      "locale": "pt-GW",
+      "short": [
+        "domingo",
+        "segunda",
+        "terça",
+        "quarta",
+        "quinta",
+        "sexta",
+        "sábado"
+      ],
+      "threeLetter": [
+        "dom",
+        "seg",
+        "ter",
+        "qua",
+        "qui",
+        "sex",
+        "sáb"
+      ],
+      "lengths": {
+        "min": 5,
+        "max": 7,
+        "avg": 6
+      }
+    },
+    {
+      "locale": "pt-LU",
+      "short": [
+        "domingo",
+        "segunda",
+        "terça",
+        "quarta",
+        "quinta",
+        "sexta",
+        "sábado"
+      ],
+      "threeLetter": [
+        "dom",
+        "seg",
+        "ter",
+        "qua",
+        "qui",
+        "sex",
+        "sáb"
+      ],
+      "lengths": {
+        "min": 5,
+        "max": 7,
+        "avg": 6
+      }
+    },
+    {
+      "locale": "pt-MO",
+      "short": [
+        "domingo",
+        "segunda",
+        "terça",
+        "quarta",
+        "quinta",
+        "sexta",
+        "sábado"
+      ],
+      "threeLetter": [
+        "dom",
+        "seg",
+        "ter",
+        "qua",
+        "qui",
+        "sex",
+        "sáb"
+      ],
+      "lengths": {
+        "min": 5,
+        "max": 7,
+        "avg": 6
+      }
+    },
+    {
+      "locale": "pt-MZ",
+      "short": [
+        "domingo",
+        "segunda",
+        "terça",
+        "quarta",
+        "quinta",
+        "sexta",
+        "sábado"
+      ],
+      "threeLetter": [
+        "dom",
+        "seg",
+        "ter",
+        "qua",
+        "qui",
+        "sex",
+        "sáb"
+      ],
+      "lengths": {
+        "min": 5,
+        "max": 7,
+        "avg": 6
+      }
+    },
+    {
+      "locale": "pt-PT",
+      "short": [
+        "domingo",
+        "segunda",
+        "terça",
+        "quarta",
+        "quinta",
+        "sexta",
+        "sábado"
+      ],
+      "threeLetter": [
+        "dom",
+        "seg",
+        "ter",
+        "qua",
+        "qui",
+        "sex",
+        "sáb"
+      ],
+      "lengths": {
+        "min": 5,
+        "max": 7,
+        "avg": 6
+      }
+    },
+    {
+      "locale": "pt-ST",
+      "short": [
+        "domingo",
+        "segunda",
+        "terça",
+        "quarta",
+        "quinta",
+        "sexta",
+        "sábado"
+      ],
+      "threeLetter": [
+        "dom",
+        "seg",
+        "ter",
+        "qua",
+        "qui",
+        "sex",
+        "sáb"
+      ],
+      "lengths": {
+        "min": 5,
+        "max": 7,
+        "avg": 6
+      }
+    },
+    {
+      "locale": "pt-CH",
+      "short": [
+        "domingo",
+        "segunda",
+        "terça",
+        "quarta",
+        "quinta",
+        "sexta",
+        "sábado"
+      ],
+      "threeLetter": [
+        "dom",
+        "seg",
+        "ter",
+        "qua",
+        "qui",
+        "sex",
+        "sáb"
+      ],
+      "lengths": {
+        "min": 5,
+        "max": 7,
+        "avg": 6
+      }
+    },
+    {
+      "locale": "pt-TL",
+      "short": [
+        "domingo",
+        "segunda",
+        "terça",
+        "quarta",
+        "quinta",
+        "sexta",
+        "sábado"
+      ],
+      "threeLetter": [
+        "dom",
+        "seg",
+        "ter",
+        "qua",
+        "qui",
+        "sex",
+        "sáb"
+      ],
+      "lengths": {
+        "min": 5,
+        "max": 7,
+        "avg": 6
+      }
+    },
+    {
+      "locale": "rn-BI",
+      "short": [
+        "cu.",
+        "mbe.",
+        "kab.",
+        "gtu.",
+        "kan.",
+        "gnu.",
+        "gnd."
+      ],
+      "threeLetter": [
+        "cu.",
+        "mbe",
+        "kab",
+        "gtu",
+        "kan",
+        "gnu",
+        "gnd"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 4,
+        "avg": 3.9
+      }
+    },
+    {
+      "locale": "rw-RW",
+      "short": [
+        "cyu.",
+        "mbe.",
+        "kab.",
+        "gtu.",
+        "kan.",
+        "gnu.",
+        "gnd."
+      ],
+      "threeLetter": [
+        "cyu",
+        "mbe",
+        "kab",
+        "gtu",
+        "kan",
+        "gnu",
+        "gnd"
+      ],
+      "lengths": {
+        "min": 4,
+        "max": 4,
+        "avg": 4
+      }
+    },
+    {
+      "locale": "sg-CF",
+      "short": [
+        "Bk1",
+        "Bk2",
+        "Bk3",
+        "Bk4",
+        "Bk5",
+        "Lâp",
+        "Lây"
+      ],
+      "threeLetter": [
+        "Bk1",
+        "Bk2",
+        "Bk3",
+        "Bk4",
+        "Bk5",
+        "Lâp",
+        "Lây"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "sn-ZW",
+      "short": [
+        "Svo",
+        "Muv",
+        "Chp",
+        "Cht",
+        "Chn",
+        "Chs",
+        "Mug"
+      ],
+      "threeLetter": [
+        "Svo",
+        "Muv",
+        "Chp",
+        "Cht",
+        "Chn",
+        "Chs",
+        "Mug"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    },
+    {
+      "locale": "su-ID",
+      "short": [
+        "Mng",
+        "Sen",
+        "Sal",
+        "Reb",
+        "Kem",
+        "Jum",
+        "Sap"
+      ],
+      "threeLetter": [
+        "Mng",
+        "Sen",
+        "Sal",
+        "Reb",
+        "Kem",
+        "Jum",
+        "Sap"
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 3,
+        "avg": 3
+      }
+    }
+  ],
+  "stillAmbiguous": [
+    {
+      "locale": "gv",
+      "short": [
+        "Jed",
+        "Jel",
+        "Jem",
+        "Jerc",
+        "Jerd",
+        "Jeh",
+        "Jes"
+      ],
+      "threeLetter": [
+        "Jed",
+        "Jel",
+        "Jem",
+        "Jer",
+        "Jer",
+        "Jeh",
+        "Jes"
+      ],
+      "duplicates": [
+        {
+          "value": "Jer",
+          "days": [
+            "Wed",
+            "Thu"
+          ]
+        }
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 4,
+        "avg": 3.3
+      }
+    },
+    {
+      "locale": "mg",
+      "short": [
+        "Alah",
+        "Alats",
+        "Tal",
+        "Alar",
+        "Alak",
+        "Zom",
+        "Asab"
+      ],
+      "threeLetter": [
+        "Ala",
+        "Ala",
+        "Tal",
+        "Ala",
+        "Ala",
+        "Zom",
+        "Asa"
+      ],
+      "duplicates": [
+        {
+          "value": "Ala",
+          "days": [
+            "Sun",
+            "Mon",
+            "Wed",
+            "Thu"
+          ]
+        }
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 5,
+        "avg": 3.9
+      }
+    },
+    {
+      "locale": "my",
+      "short": [
+        "တနင်္ဂနွေ",
+        "တနင်္လာ",
+        "အင်္ဂါ",
+        "ဗုဒ္ဓဟူး",
+        "ကြာသပတေး",
+        "သောကြာ",
+        "စနေ"
+      ],
+      "threeLetter": [
+        "တနင",
+        "တနင",
+        "အင်",
+        "ဗုဒ",
+        "ကြာ",
+        "သော",
+        "စနေ"
+      ],
+      "duplicates": [
+        {
+          "value": "တနင",
+          "days": [
+            "Sun",
+            "Mon"
+          ]
+        }
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 9,
+        "avg": 6.7
+      }
+    },
+    {
+      "locale": "oc",
+      "short": [
+        "dimenge",
+        "diluns",
+        "dimars",
+        "dimècres",
+        "dijòus",
+        "divendres",
+        "dissabte"
+      ],
+      "threeLetter": [
+        "dim",
+        "dil",
+        "dim",
+        "dim",
+        "dij",
+        "div",
+        "dis"
+      ],
+      "duplicates": [
+        {
+          "value": "dim",
+          "days": [
+            "Sun",
+            "Tue",
+            "Wed"
+          ]
+        }
+      ],
+      "lengths": {
+        "min": 6,
+        "max": 9,
+        "avg": 7.1
+      }
+    },
+    {
+      "locale": "sw",
+      "short": [
+        "Jumapili",
+        "Jumatatu",
+        "Jumanne",
+        "Jumatano",
+        "Alhamisi",
+        "Ijumaa",
+        "Jumamosi"
+      ],
+      "threeLetter": [
+        "Jum",
+        "Jum",
+        "Jum",
+        "Jum",
+        "Alh",
+        "Iju",
+        "Jum"
+      ],
+      "duplicates": [
+        {
+          "value": "Jum",
+          "days": [
+            "Sun",
+            "Mon",
+            "Tue",
+            "Wed",
+            "Sat"
+          ]
+        }
+      ],
+      "lengths": {
+        "min": 6,
+        "max": 8,
+        "avg": 7.6
+      }
+    },
+    {
+      "locale": "ur",
+      "short": [
+        "اتوار",
+        "پیر",
+        "منگل",
+        "بدھ",
+        "جمعرات",
+        "جمعہ",
+        "ہفتہ"
+      ],
+      "threeLetter": [
+        "اتو",
+        "پیر",
+        "منگ",
+        "بدھ",
+        "جمع",
+        "جمع",
+        "ہفت"
+      ],
+      "duplicates": [
+        {
+          "value": "جمع",
+          "days": [
+            "Thu",
+            "Fri"
+          ]
+        }
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 6,
+        "avg": 4.1
+      }
+    },
+    {
+      "locale": "yo",
+      "short": [
+        "Àìk",
+        "Aj",
+        "Ìsẹ́g",
+        "Ọjọ́r",
+        "Ọjọ́b",
+        "Ẹt",
+        "Àbám"
+      ],
+      "threeLetter": [
+        "Àìk",
+        "Aj",
+        "Ìsẹ",
+        "Ọjọ",
+        "Ọjọ",
+        "Ẹt",
+        "Àbá"
+      ],
+      "duplicates": [
+        {
+          "value": "Ọjọ",
+          "days": [
+            "Wed",
+            "Thu"
+          ]
+        }
+      ],
+      "lengths": {
+        "min": 2,
+        "max": 5,
+        "avg": 3.7
+      }
+    },
+    {
+      "locale": "za",
+      "short": [
+        "ngoenzsinghgiz",
+        "singhgizit",
+        "singhgizngeih",
+        "singhgizsam",
+        "singhgizseiq",
+        "singhgizhaj",
+        "singhgizroek"
+      ],
+      "threeLetter": [
+        "ngo",
+        "sin",
+        "sin",
+        "sin",
+        "sin",
+        "sin",
+        "sin"
+      ],
+      "duplicates": [
+        {
+          "value": "sin",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        }
+      ],
+      "lengths": {
+        "min": 10,
+        "max": 14,
+        "avg": 11.9
+      }
+    },
+    {
+      "locale": "bem",
+      "short": [
+        "Pa Mulungu",
+        "Palichimo",
+        "Palichibuli",
+        "Palichitatu",
+        "Palichine",
+        "Palichisano",
+        "Pachibelushi"
+      ],
+      "threeLetter": [
+        "Pa ",
+        "Pal",
+        "Pal",
+        "Pal",
+        "Pal",
+        "Pal",
+        "Pac"
+      ],
+      "duplicates": [
+        {
+          "value": "Pal",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ]
+        }
+      ],
+      "lengths": {
+        "min": 9,
+        "max": 12,
+        "avg": 10.4
+      }
+    },
+    {
+      "locale": "lkt",
+      "short": [
+        "Aŋpétuwakȟaŋ",
+        "Aŋpétuwaŋži",
+        "Aŋpétunuŋpa",
+        "Aŋpétuyamni",
+        "Aŋpétutopa",
+        "Aŋpétuzaptaŋ",
+        "Owáŋgyužažapi"
+      ],
+      "threeLetter": [
+        "Aŋp",
+        "Aŋp",
+        "Aŋp",
+        "Aŋp",
+        "Aŋp",
+        "Aŋp",
+        "Owá"
+      ],
+      "duplicates": [
+        {
+          "value": "Aŋp",
+          "days": [
+            "Sun",
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ]
+        }
+      ],
+      "lengths": {
+        "min": 10,
+        "max": 13,
+        "avg": 11.4
+      }
+    },
+    {
+      "locale": "nds",
+      "short": [
+        "Sünndag",
+        "Maandag",
+        "Dingsdag",
+        "Middeweken",
+        "Dunnersdag",
+        "Freedag",
+        "Sünnavend"
+      ],
+      "threeLetter": [
+        "Sün",
+        "Maa",
+        "Din",
+        "Mid",
+        "Dun",
+        "Fre",
+        "Sün"
+      ],
+      "duplicates": [
+        {
+          "value": "Sün",
+          "days": [
+            "Sun",
+            "Sat"
+          ]
+        }
+      ],
+      "lengths": {
+        "min": 7,
+        "max": 10,
+        "avg": 8.3
+      }
+    },
+    {
+      "locale": "nnh",
+      "short": [
+        "lyɛʼɛ́ sẅíŋtè",
+        "mvfò lyɛ̌ʼ",
+        "mbɔ́ɔntè mvfò lyɛ̌ʼ",
+        "tsètsɛ̀ɛ lyɛ̌ʼ",
+        "mbɔ́ɔntè tsetsɛ̀ɛ lyɛ̌ʼ",
+        "mvfò màga lyɛ̌ʼ",
+        "màga lyɛ̌ʼ"
+      ],
+      "threeLetter": [
+        "lyɛ",
+        "mvf",
+        "mbɔ",
+        "tsè",
+        "mbɔ",
+        "mvf",
+        "màg"
+      ],
+      "duplicates": [
+        {
+          "value": "mvf",
+          "days": [
+            "Mon",
+            "Fri"
+          ]
+        },
+        {
+          "value": "mbɔ",
+          "days": [
+            "Tue",
+            "Thu"
+          ]
+        }
+      ],
+      "lengths": {
+        "min": 10,
+        "max": 23,
+        "avg": 14.9
+      }
+    },
+    {
+      "locale": "nqo",
+      "short": [
+        "ߞߊ߯ߙ",
+        "ߞߐ߬ߓ",
+        "ߞߐ߬ߟ",
+        "ߞߎߣ",
+        "ߓߌߟ",
+        "ߛߌ߬ߣ",
+        "ߞߍ߲ߘ"
+      ],
+      "threeLetter": [
+        "ߞߊ߯",
+        "ߞߐ߬",
+        "ߞߐ߬",
+        "ߞߎߣ",
+        "ߓߌߟ",
+        "ߛߌ߬",
+        "ߞߍ߲"
+      ],
+      "duplicates": [
+        {
+          "value": "ߞߐ߬",
+          "days": [
+            "Mon",
+            "Tue"
+          ]
+        }
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 4,
+        "avg": 3.7
+      }
+    },
+    {
+      "locale": "sat",
+      "short": [
+        "ᱥᱤᱸ",
+        "ᱚᱛ",
+        "ᱵᱟ",
+        "ᱥᱟᱹ",
+        "ᱥᱟᱹᱨ",
+        "ᱡᱟᱹ",
+        "ᱧᱩ"
+      ],
+      "threeLetter": [
+        "ᱥᱤᱸ",
+        "ᱚᱛ",
+        "ᱵᱟ",
+        "ᱥᱟᱹ",
+        "ᱥᱟᱹ",
+        "ᱡᱟᱹ",
+        "ᱧᱩ"
+      ],
+      "duplicates": [
+        {
+          "value": "ᱥᱟᱹ",
+          "days": [
+            "Wed",
+            "Thu"
+          ]
+        }
+      ],
+      "lengths": {
+        "min": 2,
+        "max": 4,
+        "avg": 2.7
+      }
+    },
+    {
+      "locale": "shi",
+      "short": [
+        "ⴰⵙⴰ",
+        "ⴰⵢⵏ",
+        "ⴰⵙⵉ",
+        "ⴰⴽⵕ",
+        "ⴰⴽⵡ",
+        "ⴰⵙⵉⵎ",
+        "ⴰⵙⵉⴹ"
+      ],
+      "threeLetter": [
+        "ⴰⵙⴰ",
+        "ⴰⵢⵏ",
+        "ⴰⵙⵉ",
+        "ⴰⴽⵕ",
+        "ⴰⴽⵡ",
+        "ⴰⵙⵉ",
+        "ⴰⵙⵉ"
+      ],
+      "duplicates": [
+        {
+          "value": "ⴰⵙⵉ",
+          "days": [
+            "Tue",
+            "Fri",
+            "Sat"
+          ]
+        }
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 4,
+        "avg": 3.3
+      }
+    },
+    {
+      "locale": "tok",
+      "short": [
+        "suno esun #7",
+        "suno esun #1",
+        "suno esun #2",
+        "suno esun #3",
+        "suno esun #4",
+        "suno esun #5",
+        "suno esun #6"
+      ],
+      "threeLetter": [
+        "sun",
+        "sun",
+        "sun",
+        "sun",
+        "sun",
+        "sun",
+        "sun"
+      ],
+      "duplicates": [
+        {
+          "value": "sun",
+          "days": [
+            "Sun",
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        }
+      ],
+      "lengths": {
+        "min": 12,
+        "max": 12,
+        "avg": 12
+      }
+    },
+    {
+      "locale": "vmw",
+      "short": [
+        "ettiminku",
+        "nihiku noolempwa",
+        "namaanli",
+        "namararu",
+        "namaxexe",
+        "namathanu",
+        "esaabadu"
+      ],
+      "threeLetter": [
+        "ett",
+        "nih",
+        "nam",
+        "nam",
+        "nam",
+        "nam",
+        "esa"
+      ],
+      "duplicates": [
+        {
+          "value": "nam",
+          "days": [
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ]
+        }
+      ],
+      "lengths": {
+        "min": 8,
+        "max": 16,
+        "avg": 9.4
+      }
+    },
+    {
+      "locale": "zgh",
+      "short": [
+        "ⴰⵙⴰ",
+        "ⴰⵢⵏ",
+        "ⴰⵙⵉ",
+        "ⴰⴽⵕ",
+        "ⴰⴽⵡ",
+        "ⴰⵙⵉⵎ",
+        "ⴰⵙⵉⴹ"
+      ],
+      "threeLetter": [
+        "ⴰⵙⴰ",
+        "ⴰⵢⵏ",
+        "ⴰⵙⵉ",
+        "ⴰⴽⵕ",
+        "ⴰⴽⵡ",
+        "ⴰⵙⵉ",
+        "ⴰⵙⵉ"
+      ],
+      "duplicates": [
+        {
+          "value": "ⴰⵙⵉ",
+          "days": [
+            "Tue",
+            "Fri",
+            "Sat"
+          ]
+        }
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 4,
+        "avg": 3.3
+      }
+    },
+    {
+      "locale": "mg-MG",
+      "short": [
+        "Alah",
+        "Alats",
+        "Tal",
+        "Alar",
+        "Alak",
+        "Zom",
+        "Asab"
+      ],
+      "threeLetter": [
+        "Ala",
+        "Ala",
+        "Tal",
+        "Ala",
+        "Ala",
+        "Zom",
+        "Asa"
+      ],
+      "duplicates": [
+        {
+          "value": "Ala",
+          "days": [
+            "Sun",
+            "Mon",
+            "Wed",
+            "Thu"
+          ]
+        }
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 5,
+        "avg": 3.9
+      }
+    },
+    {
+      "locale": "my-MM",
+      "short": [
+        "တနင်္ဂနွေ",
+        "တနင်္လာ",
+        "အင်္ဂါ",
+        "ဗုဒ္ဓဟူး",
+        "ကြာသပတေး",
+        "သောကြာ",
+        "စနေ"
+      ],
+      "threeLetter": [
+        "တနင",
+        "တနင",
+        "အင်",
+        "ဗုဒ",
+        "ကြာ",
+        "သော",
+        "စနေ"
+      ],
+      "duplicates": [
+        {
+          "value": "တနင",
+          "days": [
+            "Sun",
+            "Mon"
+          ]
+        }
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 9,
+        "avg": 6.7
+      }
+    },
+    {
+      "locale": "oc-FR",
+      "short": [
+        "dimenge",
+        "diluns",
+        "dimars",
+        "dimècres",
+        "dijòus",
+        "divendres",
+        "dissabte"
+      ],
+      "threeLetter": [
+        "dim",
+        "dil",
+        "dim",
+        "dim",
+        "dij",
+        "div",
+        "dis"
+      ],
+      "duplicates": [
+        {
+          "value": "dim",
+          "days": [
+            "Sun",
+            "Tue",
+            "Wed"
+          ]
+        }
+      ],
+      "lengths": {
+        "min": 6,
+        "max": 9,
+        "avg": 7.1
+      }
+    },
+    {
+      "locale": "oc-ES",
+      "short": [
+        "dimenge",
+        "diluns",
+        "dimars",
+        "dimècres",
+        "dijòus",
+        "divendres",
+        "dissabte"
+      ],
+      "threeLetter": [
+        "dim",
+        "dil",
+        "dim",
+        "dim",
+        "dij",
+        "div",
+        "dis"
+      ],
+      "duplicates": [
+        {
+          "value": "dim",
+          "days": [
+            "Sun",
+            "Tue",
+            "Wed"
+          ]
+        }
+      ],
+      "lengths": {
+        "min": 6,
+        "max": 9,
+        "avg": 7.1
+      }
+    },
+    {
+      "locale": "pa-PK",
+      "short": [
+        "اتوار",
+        "پیر",
+        "منگل",
+        "بُدھ",
+        "جمعرات",
+        "جمعہ",
+        "ہفتہ"
+      ],
+      "threeLetter": [
+        "اتو",
+        "پیر",
+        "منگ",
+        "بُد",
+        "جمع",
+        "جمع",
+        "ہفت"
+      ],
+      "duplicates": [
+        {
+          "value": "جمع",
+          "days": [
+            "Thu",
+            "Fri"
+          ]
+        }
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 6,
+        "avg": 4.3
+      }
+    },
+    {
+      "locale": "sw-CD",
+      "short": [
+        "Jumapili",
+        "Jumatatu",
+        "Jumanne",
+        "Jumatano",
+        "Alhamisi",
+        "Ijumaa",
+        "Jumamosi"
+      ],
+      "threeLetter": [
+        "Jum",
+        "Jum",
+        "Jum",
+        "Jum",
+        "Alh",
+        "Iju",
+        "Jum"
+      ],
+      "duplicates": [
+        {
+          "value": "Jum",
+          "days": [
+            "Sun",
+            "Mon",
+            "Tue",
+            "Wed",
+            "Sat"
+          ]
+        }
+      ],
+      "lengths": {
+        "min": 6,
+        "max": 8,
+        "avg": 7.6
+      }
+    },
+    {
+      "locale": "sw-KE",
+      "short": [
+        "Jumapili",
+        "Jumatatu",
+        "Jumanne",
+        "Jumatano",
+        "Alhamisi",
+        "Ijumaa",
+        "Jumamosi"
+      ],
+      "threeLetter": [
+        "Jum",
+        "Jum",
+        "Jum",
+        "Jum",
+        "Alh",
+        "Iju",
+        "Jum"
+      ],
+      "duplicates": [
+        {
+          "value": "Jum",
+          "days": [
+            "Sun",
+            "Mon",
+            "Tue",
+            "Wed",
+            "Sat"
+          ]
+        }
+      ],
+      "lengths": {
+        "min": 6,
+        "max": 8,
+        "avg": 7.6
+      }
+    },
+    {
+      "locale": "sw-TZ",
+      "short": [
+        "Jumapili",
+        "Jumatatu",
+        "Jumanne",
+        "Jumatano",
+        "Alhamisi",
+        "Ijumaa",
+        "Jumamosi"
+      ],
+      "threeLetter": [
+        "Jum",
+        "Jum",
+        "Jum",
+        "Jum",
+        "Alh",
+        "Iju",
+        "Jum"
+      ],
+      "duplicates": [
+        {
+          "value": "Jum",
+          "days": [
+            "Sun",
+            "Mon",
+            "Tue",
+            "Wed",
+            "Sat"
+          ]
+        }
+      ],
+      "lengths": {
+        "min": 6,
+        "max": 8,
+        "avg": 7.6
+      }
+    },
+    {
+      "locale": "sw-UG",
+      "short": [
+        "Jumapili",
+        "Jumatatu",
+        "Jumanne",
+        "Jumatano",
+        "Alhamisi",
+        "Ijumaa",
+        "Jumamosi"
+      ],
+      "threeLetter": [
+        "Jum",
+        "Jum",
+        "Jum",
+        "Jum",
+        "Alh",
+        "Iju",
+        "Jum"
+      ],
+      "duplicates": [
+        {
+          "value": "Jum",
+          "days": [
+            "Sun",
+            "Mon",
+            "Tue",
+            "Wed",
+            "Sat"
+          ]
+        }
+      ],
+      "lengths": {
+        "min": 6,
+        "max": 8,
+        "avg": 7.6
+      }
+    },
+    {
+      "locale": "ur-IN",
+      "short": [
+        "اتوار",
+        "پیر",
+        "منگل",
+        "بدھ",
+        "جمعرات",
+        "جمعہ",
+        "ہفتہ"
+      ],
+      "threeLetter": [
+        "اتو",
+        "پیر",
+        "منگ",
+        "بدھ",
+        "جمع",
+        "جمع",
+        "ہفت"
+      ],
+      "duplicates": [
+        {
+          "value": "جمع",
+          "days": [
+            "Thu",
+            "Fri"
+          ]
+        }
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 6,
+        "avg": 4.1
+      }
+    },
+    {
+      "locale": "ur-PK",
+      "short": [
+        "اتوار",
+        "پیر",
+        "منگل",
+        "بدھ",
+        "جمعرات",
+        "جمعہ",
+        "ہفتہ"
+      ],
+      "threeLetter": [
+        "اتو",
+        "پیر",
+        "منگ",
+        "بدھ",
+        "جمع",
+        "جمع",
+        "ہفت"
+      ],
+      "duplicates": [
+        {
+          "value": "جمع",
+          "days": [
+            "Thu",
+            "Fri"
+          ]
+        }
+      ],
+      "lengths": {
+        "min": 3,
+        "max": 6,
+        "avg": 4.1
+      }
+    },
+    {
+      "locale": "yo-BJ",
+      "short": [
+        "Àìk",
+        "Aj",
+        "Ìsɛ́g",
+        "Ɔjɔ́r",
+        "Ɔjɔ́b",
+        "Ɛt",
+        "Àbám"
+      ],
+      "threeLetter": [
+        "Àìk",
+        "Aj",
+        "Ìsɛ",
+        "Ɔjɔ",
+        "Ɔjɔ",
+        "Ɛt",
+        "Àbá"
+      ],
+      "duplicates": [
+        {
+          "value": "Ɔjɔ",
+          "days": [
+            "Wed",
+            "Thu"
+          ]
+        }
+      ],
+      "lengths": {
+        "min": 2,
+        "max": 5,
+        "avg": 3.7
+      }
+    },
+    {
+      "locale": "yo-NG",
+      "short": [
+        "Àìk",
+        "Aj",
+        "Ìsẹ́g",
+        "Ọjọ́r",
+        "Ọjọ́b",
+        "Ẹt",
+        "Àbám"
+      ],
+      "threeLetter": [
+        "Àìk",
+        "Aj",
+        "Ìsẹ",
+        "Ọjọ",
+        "Ọjọ",
+        "Ẹt",
+        "Àbá"
+      ],
+      "duplicates": [
+        {
+          "value": "Ọjọ",
+          "days": [
+            "Wed",
+            "Thu"
+          ]
+        }
+      ],
+      "lengths": {
+        "min": 2,
+        "max": 5,
+        "avg": 3.7
+      }
+    },
+    {
+      "locale": "za-CN",
+      "short": [
+        "ngoenzsinghgiz",
+        "singhgizit",
+        "singhgizngeih",
+        "singhgizsam",
+        "singhgizseiq",
+        "singhgizhaj",
+        "singhgizroek"
+      ],
+      "threeLetter": [
+        "ngo",
+        "sin",
+        "sin",
+        "sin",
+        "sin",
+        "sin",
+        "sin"
+      ],
+      "duplicates": [
+        {
+          "value": "sin",
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        }
+      ],
+      "lengths": {
+        "min": 10,
+        "max": 14,
+        "avg": 11.9
+      }
+    }
+  ]
+}

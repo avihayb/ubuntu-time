@@ -1,4 +1,7 @@
-import { overrides } from './overrides.js';
+//import { durationUnitOverrides, weekdayStrategy, weekdayCustomAbbreviations } from './weekdayStrategy.js';
+import { customWeekdayAbbreviations } from './custom_weekday_abbrevs.js';
+import { durationUnitOverrides } from './durationUnitOverrides.js';
+import { weekdayStrategy, NARROW, TRUNC2, TRUNC3, CUSTOM } from './weekdayStrategy.js';
 
 /**
  * Formats a date into a human-readable string.
@@ -62,8 +65,8 @@ export function formatToParts({ to, from = new Date(), style = 'short', duration
         dateStr = `${month}-${day}`;
     }
 
-    // 2. Day of week
-    const dayStr = new Intl.DateTimeFormat(_locale, options.day).format(targetDate);
+    // 2. Day of week - use adaptive abbreviation
+    const dayStr = getAdaptiveWeekdayAbbreviation(targetDate, _locale, style);
 
     // 3. Time
     const timeStr = new Intl.DateTimeFormat(_locale, options.time).format(targetDate);
@@ -91,6 +94,58 @@ function getLocale(locale) {
         if (options.locale) return options.locale;
     }
     return 'en-US';
+}
+
+/**
+ * Gets an adaptive weekday abbreviation based on locale strategy.
+ * Uses the most compact format that maintains distinctness for the locale.
+ */
+function getAdaptiveWeekdayAbbreviation(date, locale, style) {
+    // For long/longer styles, always use the full format
+    if (style === 'long' || style === 'longer') {
+        return new Intl.DateTimeFormat(locale, { weekday: 'long' }).format(date);
+    }
+
+    // Get the strategy for this locale
+    const strategy = weekdayStrategy[locale];
+
+    // If no strategy found, fall back to short format
+    if (!strategy) {
+        return new Intl.DateTimeFormat(locale, { weekday: 'short' }).format(date);
+    }
+
+    switch (strategy) {
+        case NARROW:
+            // Use narrow format (1 char, naturally distinct for this locale)
+            return new Intl.DateTimeFormat(locale, { weekday: 'narrow' }).format(date);
+
+        case TRUNC2: {
+            // Truncate short format to 2 characters
+            const short = new Intl.DateTimeFormat(locale, { weekday: 'short' }).format(date);
+            return Array.from(short).slice(0, 2).join('');
+        }
+
+        case TRUNC3: {
+            // Truncate short format to 3 characters
+            const short = new Intl.DateTimeFormat(locale, { weekday: 'short' }).format(date);
+            return Array.from(short).slice(0, 3).join('');
+        }
+
+        case CUSTOM: {
+            // Use custom abbreviations
+            const customAbbrevs = customWeekdayAbbreviations[locale];
+            if (!customAbbrevs) {
+                // Fallback to short if custom not found
+                return new Intl.DateTimeFormat(locale, { weekday: 'short' }).format(date);
+            }
+            const dayOfWeek = date.getDay(); // 0 = Sunday, 6 = Saturday
+            return customAbbrevs[dayOfWeek];
+        }
+
+        default:
+            // Fallback to short format
+            return new Intl.DateTimeFormat(locale, { weekday: 'short' }).format(date);
+    }
 }
 
 function getStyleOptions(style) {
@@ -358,8 +413,8 @@ function hasNumericRepresentation(rtf, value, unit) {
 function getCompactUnitTemplate(locale, unit) {
     const language = getLanguage(locale);
     // 1. Check overrides
-    if (overrides[language] && overrides[language][unit]) {
-        return overrides[language][unit];
+    if (durationUnitOverrides[language] && durationUnitOverrides[language][unit]) {
+        return durationUnitOverrides[language][unit];
     }
 
     // 2. Try to extract from Intl.NumberFormat
