@@ -29,8 +29,14 @@ We can have all that and a ~~bag of chips~~ day of week.
 The library formats dates to follow this pattern:
 `{date}({day of week}) {time}({time until datetime})`
 
-The date is formatted using ISO 8601, except for the compact format which is uses the absoleate --mm-dd.
+The date is formatted using ISO 8601, except for the compact format which uses the obsolete mm-dd format.
 The day of week, time and time until datetime are formatted using the locale's time format.
+
+**Localized Numbers**: All numbers (date, time, and duration) are displayed using the locale's native numeral system. For example:
+- Arabic locales use Eastern Arabic numerals (٠-٩)
+- Persian locales use Persian numerals (۰-۹)
+- Bengali locales use Bengali numerals (০-৯)
+- Hindi locales use Devanagari numerals (०-९)
 
 If the locale time is lexically sortable (e.g. using 24h format), the format will also be lexically sortable. Note that default `en-US` uses 12h format (AM/PM) which is not lexically sortable.
 
@@ -105,12 +111,26 @@ console.log(ut.format({ to: target, style: 'longer' }).text);
 
 You can specify a locale. If not specified, it defaults to `navigator.language`, the system language or `en-US`.
 
+The library automatically adapts to the locale's formatting conventions, including:
+- **Numeral systems**: Numbers are displayed using locale-specific numerals
+- **Time format**: 12-hour (AM/PM) or 24-hour format
+- **Text direction**: Proper handling of RTL languages
+- **Weekday abbreviations**: Optimized for compactness while maintaining distinctness
+
 ```javascript
 const target = new Date();
 
-// Arabic
-// Output: 11-27(الأربعاء) 15:45(+0 س)
+// English (Western Arabic numerals: 0-9)
+// Output: 11-27(Wed) 3:45 PM(+0 hr.)
+console.log(ut.format({ to: target, locale: 'en-US' }).text);
+
+// Arabic (Eastern Arabic numerals: ٠-٩)
+// Output: ١١-٢٧(الأربعاء) ١٥:٤٥(+٠ س)
 console.log(ut.format({ to: target, locale: 'ar-EG' }).text);
+
+// Persian (Persian numerals: ۰-۹)
+// Output: ۱۱-۲۷(چهارشنبه) ۱۵:۴۵(+۰ ساعت)
+console.log(ut.format({ to: target, locale: 'fa-IR' }).text);
 
 // French
 // Output: 11-27(mer.) 15:45(+0 h)
@@ -185,7 +205,7 @@ An array of objects with the following properties:
 
 ## issues
 
-- the numbers for date and time are not localized.
+- ~~the numbers for date and time are not localized.~~ **RESOLVED**: Date and time numbers now use locale-specific numeral systems (e.g., Eastern Arabic numerals for Arabic, Persian numerals for Farsi, etc.).
 - some locales use AM/PM which is not lexically sortable.
 - ~~some locales need override for the relative time format in compact mode. I've filled the ones that didn't exist, but there are probably more existing that need shorter text for compact mode.~~ I've added a strategy for using abbriviated weekdays from small style when compact style fails to deliver the goods (using an abbreviation where two days have the same abbreviation, like T for Tuesday and Thursday in en-US, or not actually using an abbreviation). You can add an override to fix your locale by submitting a pull request.
 - the tests arn't great, and don't cover a representative set of most used locales.

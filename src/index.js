@@ -52,17 +52,25 @@ export function formatToParts({ to, from = new Date(), style = 'short', duration
     // However, MM-dd is not standard ISO (YYYY-MM-DD).
     // Let's construct it manually to ensure consistency across locales as requested.
     const year = targetDate.getFullYear();
-    const month = String(targetDate.getMonth() + 1).padStart(2, '0');
-    const day = String(targetDate.getDate()).padStart(2, '0');
+    const month = targetDate.getMonth() + 1;
+    const day = targetDate.getDate();
 
     let dateStr;
     if (style === 'long' || style === 'longer') {
-        dateStr = `${year}-${month}-${day}`;
+        const yearStr = formatLocalizedNumber(year, _locale);
+        const monthStr = formatLocalizedNumber(month, _locale, 2);
+        const dayStr = formatLocalizedNumber(day, _locale, 2);
+        dateStr = `${yearStr}-${monthStr}-${dayStr}`;
     } else if (style === 'short') {
-        const shortYear = String(year).slice(-2);
-        dateStr = `${shortYear}-${month}-${day}`;
+        const shortYear = year % 100; // Get last 2 digits
+        const yearStr = formatLocalizedNumber(shortYear, _locale, 2);
+        const monthStr = formatLocalizedNumber(month, _locale, 2);
+        const dayStr = formatLocalizedNumber(day, _locale, 2);
+        dateStr = `${yearStr}-${monthStr}-${dayStr}`;
     } else {
-        dateStr = `${month}-${day}`;
+        const monthStr = formatLocalizedNumber(month, _locale, 2);
+        const dayStr = formatLocalizedNumber(day, _locale, 2);
+        dateStr = `${monthStr}-${dayStr}`;
     }
 
     // 2. Day of week - use adaptive abbreviation
@@ -84,6 +92,21 @@ export function formatToParts({ to, from = new Date(), style = 'short', duration
         { type: 'relative', value: durationStr },
         { type: 'literal', value: ')' }
     ];
+}
+
+/**
+ * Formats a number using locale-specific numerals with optional zero-padding.
+ * @param {number} num - The number to format
+ * @param {string} locale - The locale to use
+ * @param {number} [minDigits=1] - Minimum number of digits (for zero-padding)
+ * @returns {string} The formatted number
+ */
+function formatLocalizedNumber(num, locale, minDigits = 1) {
+    const formatter = new Intl.NumberFormat(locale, {
+        minimumIntegerDigits: minDigits,
+        useGrouping: false
+    });
+    return formatter.format(num);
 }
 
 function getLocale(locale) {
