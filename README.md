@@ -208,9 +208,10 @@ An array of objects with the following properties:
 - ~~the numbers for date and time are not localized.~~ **RESOLVED**: Date and time numbers now use locale-specific numeral systems (e.g., Eastern Arabic numerals for Arabic, Persian numerals for Farsi, etc.).
 - some locales use AM/PM which is not lexically sortable.
 - ~~some locales need override for the relative time format in compact mode. I've filled the ones that didn't exist, but there are probably more existing that need shorter text for compact mode.~~ I've added a strategy for using abbriviated weekdays from small style when compact style fails to deliver the goods (using an abbreviation where two days have the same abbreviation, like T for Tuesday and Thursday in en-US, or not actually using an abbreviation). You can add an override to fix your locale by submitting a pull request.
-- the tests arn't great, and don't cover a representative set of most used locales.
+- ~~the tests arn't great, and don't cover a representative set of most used locales.~~ **RESOLVED**: Tests now have correct import paths and all 30 tests pass successfully, covering multiple locales (en-US, en-IL, en-GB, he-IL, ar-EG, fa-IR, hi-IN, bn-BD) and formatting styles. still, testcases only cover few locales.
 - maybe parts should be further subdivided.
 - didn't take the time to check how much AI slop I've introduced, though the implementation looks solid at a glance
 - optimise the formatting by imitating the underlying Intl.DateTimeFormat and friends. enabling storing the underlying formatter, and reusing it for the same locale and style.
+- adding a format string
 - looking for other optimizations
 

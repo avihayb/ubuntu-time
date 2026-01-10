@@ -1,4 +1,4 @@
-import { format } from './src/index.js';
+import { format } from '../../src/index.js';
 
 console.log('=== TESTING ADAPTIVE WEEKDAY ABBREVIATIONS ===\n');
 

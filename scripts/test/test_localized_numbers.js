@@ -1,5 +1,5 @@
 // Test localized numbers
-import { ut } from './src/index.js';
+import { ut } from '../../src/index.js';
 
 const testDate = new Date('2025-12-30T12:00:00Z');
 const now = new Date('2025-12-29T12:00:00Z');

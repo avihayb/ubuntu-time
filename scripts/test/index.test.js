@@ -1,6 +1,6 @@
 import { test, describe, it } from 'node:test';
 import assert from 'node:assert';
-import { format } from '../src/index.js';
+import { format } from '../../src/index.js';
 
 describe('format', () => {
     const now = new Date();
@@ -41,7 +41,7 @@ describe('format', () => {
     });
 
     it('should return parts', async () => {
-        const { formatToParts } = await import('../src/index.js');
+        const { formatToParts } = await import('../../src/index.js');
         const parts = formatToParts({ to: future, from: now, style: 'short' });
         console.log('Parts:', parts);
         assert.ok(Array.isArray(parts));

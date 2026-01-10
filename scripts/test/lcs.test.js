@@ -1,7 +1,7 @@
 
 import { test } from 'node:test';
 import assert from 'node:assert';
-import { format } from '../src/index.js';
+import { format } from '../../src/index.js';
 
 test('LCS Fallback for Relative Time', async (t) => {
     const now = new Date('2025-11-25T12:00:00Z');
